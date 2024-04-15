@@ -9,7 +9,7 @@ public class Main {
 
     public static void adminUnits() throws Exception {
         AdminUnitList adminUnits = new AdminUnitList();
-        adminUnits.read("admin-units.csv");
+        adminUnits.read("src/data/admin-units.csv");
         adminUnits.list(System.out);
     }
 }
